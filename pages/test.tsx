@@ -17,7 +17,7 @@ const Test = ({ message }) => {
 };
 export default Test;
 
-export async function getStaticProps(context) {
+export async function getServerSideProps(context) {
   const message = "bonjour";
 
   return {
